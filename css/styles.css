@@ -1,5 +1,31 @@
+.jumbotron {
+  margin-left: 200px;
+  background-color: lightgrey;
+}
+
 body {
   background-color: teal;
+}
+
+.aboutme {
+  font-size: inherit;
+  position: absolute;
+  top: 0;
+  width: 180px;
+  left: 0;
+  border-right: solid black 1px;
+  padding-left: 200px;
+  margin:  0.6em 1em 0.7em;
+  padding: 0.25em 0;
+  direction: ltr;
+}
+
+[src="img/tree pose.jpg"] {
+  border: solid 2px black;
+  padding: 3px;
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 
 .project-titles {
