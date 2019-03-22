@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: teal;
+  background-color: #009933;
 }
 
 .aboutme {
@@ -39,6 +39,7 @@ body {
   width: 200px;
   height: 200px;
   float: right;
+  border-radius: 110px;
 }
 
 .project-titles {
@@ -46,12 +47,12 @@ body {
   margin-left: 150px;
   margin-top: 5px;
   text-align:center;
+  background-color: #9fdfbf;
+  padding: 20px;
+  border-radius: 30px;
 
 }
 
-p.project-titles {
-  font-size: 10px;
-}
 
 .ieborder {
   border: solid orange;
@@ -67,4 +68,14 @@ p.project-titles {
 .gh {
   font-family: fantasy;
   color: red;
+}
+
+.goals {
+  margin-left: 200px;
+  border: dashed 3px #cc6600;
+  margin-bottom: 20px;
+  background-color: #dd99ff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 7px;
 }
