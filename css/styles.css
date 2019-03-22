@@ -31,3 +31,8 @@ body {
 .project-titles {
   text-align:center;
 }
+
+.gh {
+  font-family: fantasy;
+  color: red;
+}
