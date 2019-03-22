@@ -1,14 +1,15 @@
 .jumbotron {
-  margin-left: 200px;
+  margin-top: 15px;
+  margin-left: 0px;
   background-color: lightgrey;
   padding: 20px;
   font-family: cursive;
 }
 
 .sub-intro {
-  margin-left: 200px;
+  margin-left: 150px;
   padding: 5px;
-  border-radius: 200px;
+
 }
 
 body {
@@ -23,9 +24,13 @@ body {
   left: 0;
   border-right: solid black 1px;
   padding-left: 200px;
-  margin:  0.6em 1em 0.7em;
+  margin:  22em 1em 0.7em;
   padding: 0.25em 0;
   direction: ltr;
+}
+
+.hobbies {
+
 }
 
 [src="img/tree pose.jpg"] {
@@ -38,13 +43,25 @@ body {
 
 .project-titles {
   position: relative;
-  margin-left: 75px;
-  margin-top: 100px;
+  margin-left: 150px;
+  margin-top: 5px;
   text-align:center;
+
 }
 
-p {
-  font-weight: lighter;
+p.project-titles {
+  font-size: 10px;
+}
+
+.ieborder {
+  border: solid orange;
+  padding: 3px;
+  width: 4px;
+  background-color: skyblue;
+}
+
+.iecolor {
+  color: red;
 }
 
 .gh {
